@@ -57,7 +57,8 @@ function NavbarComponent() {
                 </div>
 
                 <Navbar.Collapse className="justify-content-end">
-                    <Button onClick={handleShow}>Cart ({productsCount} Items)</Button>
+                    <Button onClick={handleShow} style={{width:"max-content"}}>Cart ({productsCount} Items)
+                    </Button>
                 </Navbar.Collapse>
             </Navbar>
             <Modal show={show} onHide={handleClose}>

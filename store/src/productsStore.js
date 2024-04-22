@@ -26,7 +26,7 @@ const productsArray = [
         id: "price_1P7zXuSBcDuiMaxaqQ4EYi5K",
         title: "BIRD OF PARADISE",
         discription:"Home",
-        price: 39.99,
+        price: 11.99,
         image:"https://greeneryunlimited.co/cdn/shop/products/Wythe-40-2970.040-WH_Bird-of-Paradise-14.jpg?v=1618949230",
         link:"p3"
     }
