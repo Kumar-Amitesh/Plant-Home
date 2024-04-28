@@ -1,15 +1,8 @@
 import { Row, Col } from 'react-bootstrap';
-// import { productsArray } from '../productsStore';
 import { productsArray } from '../components/exploreProduct';
 import ExploreProductCard from '../components/ExploreProductCard';
-// [{... }, {... }, {... }]
 import NavbarComponent from '../components/Navbar';
-// import Group from './Group 1.png';
 import Five from '../images/5.png'
-// import bg from './bg.png'
-// import bgdp from './bg-dp.png'
-// import bgdp2 from './bg-dp2.png'
-// import Candle from './Candle_Mockup_1_B (2) copy 2 14.02 1.png'
 function Explore() {
 
     return (

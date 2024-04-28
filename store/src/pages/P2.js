@@ -5,7 +5,7 @@ export default function P1() {
     return (
         <div>
             <NavbarComponent></NavbarComponent>
-            
+
 
             <div className="display">
                 <div className="left">
@@ -14,14 +14,14 @@ export default function P1() {
                 </div>
                 <div className="right">
                     <h1>
-                    Peace lily
+                        Peace lily
                     </h1>
                     <p>The peace lily plant is well known for its air-purifying abilities as a houseplant; it’s great at
-breaking down and neutralizing toxic gases like carbon monoxide and formaldehyde. Peace
-lilies also make an ideal gift plant, in part because of their friendly name but also because
-they are so easy to keep alive — when you give a peace lily, rest assured that you’re not
-giving a gift that will become a burden.
-</p>
+                        breaking down and neutralizing toxic gases like carbon monoxide and formaldehyde. Peace
+                        lilies also make an ideal gift plant, in part because of their friendly name but also because
+                        they are so easy to keep alive — when you give a peace lily, rest assured that you’re not
+                        giving a gift that will become a burden.
+                    </p>
                 </div>
             </div>
             <footer id="contact">
@@ -32,25 +32,29 @@ giving a gift that will become a burden.
                     </div>
                     <div className="right">
                         <ul>
-                            <li style={{color: "green", paddingBottom: "1vw",
-                        fontWeight: "500",
-                        fontSize: "1vw"
-                         }}>Discovery</li>
+                            <li style={{
+                                color: "green", paddingBottom: "1vw",
+                                fontWeight: "500",
+                                fontSize: "1vw"
+                            }}>Discovery</li>
                             <li>New Season</li>
                             <li>Most searched</li>
                             <li>Most selled</li>
                         </ul>
                         <ul>
-                            <li style={{color: "green", paddingBottom: "1vw",
-                        fontSize: "1vw"}}>About</li>
+                            <li style={{
+                                color: "green", paddingBottom: "1vw",
+                                fontSize: "1vw"
+                            }}>About</li>
                             <li>Help</li>
                             <li>Shipping</li>
                             <li>Affiliate</li>
                         </ul>
                         <ul>
-                            <li style={{color: "green", paddingBottom: "1vw",
-                        fontSize: "1vw"
-                        }}>Info</li>
+                            <li style={{
+                                color: "green", paddingBottom: "1vw",
+                                fontSize: "1vw"
+                            }}>Info</li>
                             <li>Contact us</li>
                             <li>Privacy Policies</li>
                             <li>Terms & Condition</li>

@@ -1,5 +1,4 @@
 import React from 'react';
-// import {Link} from 'react-router-dom'
 export default class AddContact extends React.Component{
     // class state (State in class component)
     state = {
@@ -51,11 +50,9 @@ export default class AddContact extends React.Component{
                   }}
                 />
               </div>
-              {/* <Link to="/store"> */}
                 <div className="ui buttons">
                     <button className="ui positive button">ADD</button>
                 </div>
-            {/* </Link> */}
             </form>
           </div>
         );

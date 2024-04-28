@@ -11,7 +11,6 @@ export default function Contact(){
                 <img src={Icon} alt=""/>
                 <div id="below"></div>
             </div>
-            {/* <img src={Image} alt="" style={{float:"right",height:"200px",width:"200px"}}/> */}
             <AddContactApp/>
         </div>
     )

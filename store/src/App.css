@@ -469,16 +469,11 @@ li:hover{
   font-size: larger;
 }
 
-/* #contact{
-  background-image: url("./images/contact_bg.jpeg");
-  background-size: cover;
-} */
 
 #right {
   position: absolute;
   right: 0;
-  top: 0;
-  /* z-index: 999; */  
+  top: 0;  
   width: 35vw;
   height: 96vh;
   background-color: rgb(192, 245, 216);
@@ -493,7 +488,6 @@ li:hover{
   left: 45%;
 }
 #right img:nth-child(2){
-  /* background-color: red; */
   width: 40vw;
   top: 19.5%;
   right: 0%;

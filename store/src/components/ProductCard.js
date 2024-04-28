@@ -1,5 +1,4 @@
 // sk-zXvs662152d00aee55173
-
 import { Card, Button, Form, Row, Col } from 'react-bootstrap';
 import { CartContext } from '../context/CartContext';
 import { useContext } from 'react';
@@ -12,8 +11,6 @@ function ProductCard(props) { // props.product is the product we are selling
     return (
         <Card>
             <Card.Body>
-                {/* <Card.Title><img src={product.image} className="ui image" alt=""/></Card.Title> */}
-                {/* <Image src="./Group 1.png" rounded /> */}
                 <Card.Img variant="top" src={product.image} title='' alt=''
                 onError={(e) => {
                     console.log(e);
@@ -24,8 +21,6 @@ function ProductCard(props) { // props.product is the product we are selling
                 <Link to={`/${product.link}`}>
                     <Card.Text><Card.Link href="">Know More</Card.Link></Card.Text>
                 </Link>
-                
-                {/* <Card.Link href="">Know More</Card.Link>  */}
                 { productQuantity > 0 ?
                     <>
                         <Form as={Row}>

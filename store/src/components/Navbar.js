@@ -32,7 +32,6 @@ function NavbarComponent() {
     return (
         <>
             <Navbar expand="sm">
-                {/* <Navbar.Brand href="/">Plant Home</Navbar.Brand> */}
                 <Navbar className="bg-body-tertiary">
                     <Container>
                         <Navbar.Brand href="#home">
@@ -42,18 +41,11 @@ function NavbarComponent() {
             <Navbar.Toggle />
 
                 <div id="nav">
-                    {/* <a href="#landingpage"><img src="Logo.png" alt=""/>plant home</a> */}
                     <div id="links">
                         <a href="#product">Discovery</a>
                         <a href="#about">About us</a>
                         <a href="#contact">Contact Us</a>
                     </div>
-                    {/* <div id="icons">
-                        <a href=""><i class="ri-user-line"></i>
-                        </a>
-                        <a href=""><i class="ri-shopping-cart-line"></i>
-                        </a>
-                    </div> */}
                 </div>
 
                 <Navbar.Collapse className="justify-content-end">

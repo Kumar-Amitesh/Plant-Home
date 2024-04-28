@@ -9,13 +9,11 @@ import Store from './pages/Store';
 import Success from './pages/Success';
 import CartProvider from './context/CartContext';
 import Home from './pages/Home'
-// import AddContactApp from './pages/AddContactApp';
 import P1 from './pages/P1';
 import P2 from './pages/P2';
 import P3 from './pages/P3';
 import Explore from './pages/Explore';
 import Contact from './pages/Contact';
-// import ContactList from './pages/ContactList';
 // localhost:3000 -> Home
 // localhost:3000/success -> Success
 

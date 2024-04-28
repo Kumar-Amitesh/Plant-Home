@@ -3,7 +3,6 @@
 import { Card, Button, Form, Row, Col } from 'react-bootstrap';
 import { CartContext } from '../context/CartContext';
 import { useContext } from 'react';
-// import { Link } from 'react-router-dom';
 function ProductCard(props) { // props.product is the product we are selling
     const product = props.product;
     const cart = useContext(CartContext);
@@ -12,8 +11,6 @@ function ProductCard(props) { // props.product is the product we are selling
     return (
         <Card>
             <Card.Body>
-                {/* <Card.Title><img src={product.image} className="ui image" alt=""/></Card.Title> */}
-                {/* <Image src="./Group 1.png" rounded /> */}
                 <Card.Img variant="top" src={product.image} title='' alt='' width="300" height="350"
                 onError={(e) => {
                     console.log(e);
@@ -21,11 +18,7 @@ function ProductCard(props) { // props.product is the product we are selling
                 }}/>
                 <Card.Title>{product.title}</Card.Title>
                 <Card.Text>${product.price}</Card.Text>
-                {/* <Link to={`/${product.link}`}> */}
-                    <Card.Text><Card.Link href="">Know More</Card.Link></Card.Text>
-                {/* </Link> */}
-                
-                {/* <Card.Link href="">Know More</Card.Link>  */}
+                <Card.Text><Card.Link href="">Know More</Card.Link></Card.Text>
                 { productQuantity > 0 ?
                     <>
                         <Form as={Row}>

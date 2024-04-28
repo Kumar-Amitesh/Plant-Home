@@ -15,21 +15,8 @@ function Store() {
     return (
         <>
             <NavbarComponent></NavbarComponent>
-            {/* <h1 align="center" classNameName="p-3">Welcome to the store!</h1> */}
             <div id="main">
                 <div id="landingpage">
-                    {/* <div id="nav">
-                        <a href="#landingpage"><img src="Logo.png" alt=""/>plant home</a>
-                        <div id="links">
-                            <a href="#product">Discovery</a><a href="#about">About us</a><a href="#contact">Contact Us</a>
-                        </div>
-                        <div id="icons">
-                            <a href=""><i className="ri-user-line"></i>
-                            </a>
-                            <a href=""><i className="ri-shopping-cart-line"></i>
-                            </a>
-                        </div>
-                    </div> */}
                     <div id="box">
                         <img src={Group} alt="" />
                         <a href="#product"><button>Discover Our Collection</button></a>

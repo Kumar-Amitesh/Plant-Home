@@ -20,7 +20,6 @@ function Success() {
                 </div>
                 <br/>
                 <div id="print">
-                    {/* <a href="#" style={{textDecoration: "none", color:"green"}}>Print receipt</a> */}
                     <button style={{textDecoration: "underline", color:"green",
                     border:"none",
                     backgroundColor:"white",paddingBottom:"5.5em"}}>Print receipt</button>
